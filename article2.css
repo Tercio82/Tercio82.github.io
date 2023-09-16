@@ -1,0 +1,77 @@
+.article2 {
+  color: white;
+  background-color: rgb(35, 35, 35);
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  gap: 4rem;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 2fr;
+  padding: 3rem 1.5rem;
+  /* margin: 3rem 1.5rem; */
+}
+
+.title_article2 {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 13ch;
+  line-height: 8rem;
+  text-align: left;
+  margin: 0px;
+  color: black;
+}
+
+.section2 {
+  font-size: 2.5ch;
+  margin: 1.5rem 0.5rem 2.5rem 0.5rem;
+}
+
+.text_section2,
+.text2_section2 {
+  color: rgb(180, 180, 180);
+  margin-bottom: 2rem;
+}
+.text_section2 strong {
+  color: white;
+}
+
+.formacoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.formacoes div {
+  width: 18rem;
+  background-color: rgb(0, 0, 0);
+  text-align: left;
+  padding: 1rem;
+  position: relative;
+}
+
+.marca_formacoes {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2rem;
+  width: 0.4rem;
+  background-image: linear-gradient(to top, violet, red);
+  top: 0.7rem;
+  left: -0.5rem;
+}
+
+.box_section2 h3 {
+  font-size: 1.5ch;
+  margin: 0rem;
+  padding-bottom: 0.5rem;
+  color: rgb(180, 180, 180);
+}
+
+.p {
+  font-weight: 800;
+  padding-bottom: 1rem;
+}
+
+.p2 {
+  font-size: 1.7ch;
+  color: rgb(180, 180, 180);
+}

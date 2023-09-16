@@ -1,0 +1,9 @@
+@import "./header.css";
+@import "./section.css";
+@import "./article.css";
+@import "./article2.css";
+
+body {
+  margin: 0px;
+  background-color: rgb(250, 250, 250);
+}
